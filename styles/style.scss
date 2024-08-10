@@ -22,16 +22,26 @@
 @import "../node_modules/bootstrap/scss/list-group";
 @import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/placeholders";
-
-.navbar-brand{
-    margin-right: 5cap;
-  width: 100px;
+.logo{
+    width: 100px;
   height: 40px;
+}
+.navbar-brand{
+    margin-left: 0px;
+
+  width: 30px;
+  height: 20px;
+  border: 1px solid #ecedee;
+  border-radius: 5px;
+   padding-bottom: 35px;
+   text-align: center;
+   background-color: aqua;
+   
 
 }
 .form-control{
-    margin-left:20px;
-    width: 640px;
+    margin-left:5px;
+    width: 700px;
     height: 40px;
     background-color: #ecedee;
 
@@ -43,6 +53,25 @@
 
     }
 }
+
+.nav{
+    margin-top: 5px;
+    margin-right: 5px;
+    .nav-item{
+        color:black;
+        img{
+            width:20px;
+            margin-top: 12px;
+        }
+       
+    }
+    .nav-link{
+        color: black;
+    }
+    
+}
+
+
 // .navbar .images{
 //     margin-left: 35px;
 //     padding:0px;
