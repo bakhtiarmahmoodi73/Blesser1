@@ -1,12 +1,67 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 
-// .navbar-brand{
-// color: aqua;
+@import"../node_modules/bootstrap/scss/grid";
+@import"../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/placeholders";
+
+.navbar-brand{
+    margin-right: 5cap;
+  width: 100px;
+  height: 40px;
+
+}
+.form-control{
+    margin-left:20px;
+    width: 640px;
+    height: 40px;
+    background-color: #ecedee;
+
+    &:focus{
+        border-color: white;
+        box-shadow: none;
+        background-color: #ecedee;
+
+
+    }
+}
+// .navbar .images{
+//     margin-left: 35px;
+//     padding:0px;
+//     img{
+//         padding: 10px;
+//         border: 1px solid #ecedee;
+//         border-radius: 5px;
+//         height: 40px;
+//     }
 // }
-// .form-control{
-//     margin-left: 500px;
-//     &:focus{
-//         background-color: #fff !important;
+// .navbar{
+//     ul{
+//         list-style: none;
+//     }
+// }
+// .navbar-nav{
+//     display:flex;
+//     flex-direction: row !important;
+//     nav-link{
+//         margin: 5px !important;
 //     }
 // }
